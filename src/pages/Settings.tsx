@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import { Trash2, AlertTriangle } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { resetAllData } from '../services/settingsService'
-import { ConfirmDialog } from '../components/ui/ConfirmDialog'
 import { ROUTES } from '../constants/routes'
 
 export function SettingsPage() {
